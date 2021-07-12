@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brazil Vs Argentina Copa America Final </title>
+    <!-- fivicon -->
+    <link rel="icon" href="bra.png" type="image/x-icon">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-light">Brazil Vs Argentina Copa America Final 2021</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label class="text-light" for="inp">Enter Goles</label>
+                    <textarea id="inp" class="form-control" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Show Goles
+                    </button>
+                    <div class="collapse my-4" id="collapseExample">
+                        <div class="card card-body">
+                            <ul class="list-group" id="name-list">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label class="text-light">Output Display</label>
+                <div class="card card-body text-center">
+                    <h2 id="display">Display Goles</h2>
+                </div>
+                <div class="text-center">
+                    <button class="btn btn-danger mt-4" id="giveAtry">
+                        Give A Try
+                    </button>
+                </div>
+                <ul class="list-group-item my-4">
+                    <li class="list-group-item">
+                        <strong><img src="bra.png" class=" rounded" alt="brazil" width="50px"> : <span id="firstGols"></span></strong>
+                    </li>
+                    <li class="list-group-item">
+                        <strong><img src="arg.png" class=" rounded" alt="brazil" width="50px"> : <span id="secondGols"></span></strong>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+    </div>
+
+
+    <!-- jquery js -->
+    <script src="js/jquery.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <!-- custom js -->
+    <script src="js/app.js"></script>
+</body>
+</html>
